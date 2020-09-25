@@ -6,6 +6,8 @@ public class ScoreScript : MonoBehaviour
 {
 
     public static ScoreScript ScoreKeeper;
+    int Score;
+    int highScore;
 
     void Awake()
     {
@@ -24,18 +26,6 @@ public class ScoreScript : MonoBehaviour
     }
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
+  
 
 }
