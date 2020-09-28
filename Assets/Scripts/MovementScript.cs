@@ -38,6 +38,7 @@ public class MovementScript : MonoBehaviour
             if (MoveDirection != Vector2.zero) ///if the player is trying to move in a direction start the move corutine
             {
                 StartCoroutine(moveTowardPosition(transform));
+                ScoreKeeper.ScoreScript.AddScore();
             }
         }
     }
